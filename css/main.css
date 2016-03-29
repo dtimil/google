@@ -186,3 +186,22 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+@media screen and (max-width: 603px) {
+    .searchBox input {
+        width:80%;
+    }
+}
+@media screen and (max-width: 603px) {
+    .right{
+        width:220px;
+        margin:0 auto;
+        float:none;
+        padding-right:0;
+    }
+    .left{
+    	width:240px;
+    	margin: 0 auto;
+    	float:none;
+    	padding-left:0;
+    }
+}
